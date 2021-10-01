@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         guard let day = dateTextField.text, let month = monthTextField.text, let year = yearTextField.text else {
             return
         }
-        
+        // календарь
         let calendar = Calendar.current
         var dateComponent = DateComponents()
         dateComponent.day = Int(day)
